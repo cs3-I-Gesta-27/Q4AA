@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<meta name = "name" content = "Ian Anthonette Gesta">
+		<meta name = "section" content = "Sodium">
+		<meta name = "keywords" content = "4th Quarter Project">
+		<meta name="keywords" content="HTML, CSS, Javascript">
+        <meta name="revised" content="05/31/24">
+		<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+		<title>Computational Chemistry</title>
+	</head>
+	<body>
+		<nav>
+			<a href="signup.html"><h1 class="navButton">SIGN-UP</h1></a>
+			<a href="history.html"><h1 class="navButton">HISTORY</h1></a>
+			<a href="about.html"><h1 class="navButton">ABOUT</h1></a>
+			<a href="career.html"><h1 class="navButton">CAREERS</h1></a>
+			<a href="index.html"><h1 class="navButton">HOME</h1></a>
+			<h1 class="webTitle">Computational Chemistry</h1>					   
+		</nav>
+
+		<div class="introCard">
+			<h5 class="h5-intro"> <br>COMPUTATIONAL CHEMISTRY JOBS</h5>
+					<p class="p-intro">There are many job careers under the field of Computational Chemistry. However, there are specifications in the duties depending on the specific  subfield of computational chemistry choice. For example, on the development side, it is focused on creating and testing new statistical and mathematical packages and algorithms that may have applications in numerous fields. In applied computational chemistry, it requires theoretical knowledge to tackle real-world problems, and the duties include experiment design, data collection, publication of research, and etc. </br>
+					</p>
+					<a href="https://www.ziprecruiter.com/t/Most-Popular-Types-Of-Computational-Chemistry-Jobs">
+						<p class="c4">If you want to know more click this!!!</p>
+					</a>
+		</div>
+		<div class="main">
+			<div class="card">
+				<img src="c1.jpg" alt="Scientist" class="image">
+				<div class="overlay">
+					<div class="text"><h5>Scientist Computational Chemistry</h5><br><p>Scientists specialized in computational chemistry that applies computer-based techniques to understand and solve chemical problems.</p></div>
+				</div>
+			</div>
+		
+			<div class="card">
+				<img src="c2.jpeg" alt="Pharmaceutical" class="image">
+				<div class="overlay">
+					<div class="text"><h5>Pharmaceutical Computational Chemistry</h5><br><br><p>Pharmaceutical scientists specialized in computational chemistry that focuses on the application of computational techniques to solve problems related to drug discovery, design, and development. </p></div>
+				</div>
+			</div>
+			
+			<div class="card">
+				<img src="c3.jpg" alt="Design" class="image">
+				<div class="overlay">
+					<div class="text"><h5>Computational Designer</h5><br><br><p>Computational designers specialized in computational chemistry that deals with leveraging computational methods, algorithms, and software to generate, analyze, and optimize designs.					</p></div>
+				</div>
+			</div>
+			
+			<div class="card">
+				<img src="c4.jpeg" alt="Quantum" class="image">
+				<div class="overlay">
+					<div class="text"><h5>Computational Quantum Chemistry</h5><br><br><p>Quantum chemists specialized in computational chemistry that focuses on using quantum mechanics to understand and predict the behavior of molecules and chemical reactions. 					</p></div>
+				</div>
+			</div>
+		</div>
+	<style>
+	*{margin: 0;}
+		@font-face {
+				font-family: Mokoto;
+				src: url(Mokoto-Demo.ttf);
+		}
+		@font-face {
+				font-family: Panton;
+				src: url(FontsFree-Net-Panton-BlackCaps.ttf);
+		}
+		body {
+				font-family: Mokoto, monospace;
+		}
+		body {
+				background-image: url('ccbg.jpeg');
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+				background-attachment: fixed;
+		}
+		.navButton{
+				padding: 30px;
+				font-family: 'Poppins';
+				color: white;
+				list-style-type: none;
+				float: right;
+				font-size: 13px;
+				text-indent: 5px;
+			}
+		nav{
+				width: 100%;
+				height: 80px;
+				margin-bottom:200px;
+		}
+		.webTitle{
+				padding: 30px;
+				font-family: Mokoto-Demo(sans-serif);
+				font-size: 25px;
+				color: white;
+				text-indent: 10px;
+				text-shadow: 0 0 10px steelblue, 0 0 20px white;
+		}
+		.introCard{
+			width:auto;
+			height:400px;
+			display:inline-block;
+			font-family: 'Poppins';
+			border-radius:10px;
+			padding:20px 25px;
+			box-sizing:border-box;
+			background-position:center;
+			background-size:cover;
+			text-align: center;
+			position: absolute;
+			top: 60px;
+		}  
+		.h5-intro{
+			font-weight: bold;
+			text-shadow: 0 0 10px steelblue, 0 0 20px white;
+			color:white; 
+			font-size: 60px;
+		}  
+		h5{
+			color:azure;
+			font-size: 30px;
+			margin-left:30px;
+		}
+		p{
+			color: #040a1f;
+			font-size:20px; 
+			margin:40px 20px;
+		}       
+		.p-intro{
+			color:white;
+		}
+		.c4{
+			text-align: center;
+			font-family: 'Poppins';
+			color: white;
+			text-shadow: 0 0 10px steelblue, 0 0 20px white;
+		}
+		.text{
+			text-align: center;
+			font-family: 'Poppins';
+			text-shadow: 0 0 10px steelblue, 0 0 20px white;
+			padding: 30px;
+		}
+		.card {
+			position: relative;
+			width: 49%;
+			margin: 5px;
+			float: left;
+			top: 280px;
+			}
+		.image {
+			display: block;
+			width: 100%;
+			height: auto;
+			margin-bottom: 5px;
+			}
+		.overlay {
+			position: absolute;
+			bottom: 100%;
+			left: 0;
+			right: 0;
+			background-color:steelblue; 
+			overflow: hidden;
+			width: 100%;
+			height:0;
+			transition: .5s ease;
+			}
+		.card:hover .overlay {
+			bottom: 0;
+			height: 100%;
+			}
+	</style>
+    </body>
+</html>
